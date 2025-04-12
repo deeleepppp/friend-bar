@@ -1,0 +1,43 @@
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+.name {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #00b4d8, #0077b6);
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #0096c7, #023e8a);
+  }
+  .transparent{
+
+background: rgba(169, 169, 255, 0.13);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.2px);
+-webkit-backdrop-filter: blur(10.2px);
+border: 1px solid rgba(56, 56, 75, 0.356);
+  }
+  
+  
